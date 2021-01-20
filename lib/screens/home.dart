@@ -36,11 +36,9 @@ class HomeState extends State<Home> {
               ' \n Welcome to TPL!!!!! \n \n',
               style: TextStyle(fontSize: 30.0, color: Colors.orange),
             ),
-            Image.network(
-                'https://static.javatpoint.com/tutorial/flutter/images/flutter-creating-android-platform-specific-code3.png',
-                height: 200,
-                width: 150
-            ),
+
+            Image.asset('assets/images/logo.jpg',height: 150, width: 200),
+            //Image(image: AssetImage('assets/images/logo.jpg',height: 150, width: 150))
 
           ],
         ),

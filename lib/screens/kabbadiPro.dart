@@ -14,7 +14,7 @@ class KabbadiProState extends State<KabbadiPro > {
         title: new Text('KabbadiPro'),
       ),*/
 
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
 
